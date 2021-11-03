@@ -1,6 +1,26 @@
 .container{
-    background-color: lightgray;
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 450px;
+}
+.immagine{
     display: inline-block;
     width: 350px;
-    height: 500px;
+    height: 450px;
+    }
+.blocco{
+    margin-left:200px;
+}
+.sconto-1{
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.sconto-2{
+    background-color:red;
+    position: absolute;
+    top: 0;
+    right:0;
 }
