@@ -1,5 +1,6 @@
 .container{
     display: inline-block;
+    margin-bottom:30px;
     position: relative;
     width: 350px;
     height: 450px;
@@ -24,3 +25,16 @@
     top: 0;
     right:0;
 }
+.container:hover .cuoricino{
+    display: inline-block;
+    
+}
+.cuoricino{
+    position: absolute;
+    bottom:20px;
+    left:175px;
+    font-size: large;
+    display:none;
+}
+
+
